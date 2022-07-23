@@ -49,7 +49,7 @@ app.get("/payment/:phone", (req, res) => {
   // this happens when the user clicks on the link in SMS
   const sFrom = req.params.phone;
   if (!oOrders.hasOwnProperty(sFrom)) {
-    res.end("Already Ordered");
+    res.end("order already complete");
   } else {
     res.end(oOrders[sFrom].renderForm());
   }
