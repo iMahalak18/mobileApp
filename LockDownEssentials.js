@@ -1,7 +1,7 @@
 const Order = require("./Order");
 
 const OrderState = Object.freeze({
-    WELCOMING: Symbol("welcoming"),
+    WELCOMING: Symbol("welcome"),
     PRODUCT: Symbol("product"),
     UPSELL: Symbol("upsell")
 });
