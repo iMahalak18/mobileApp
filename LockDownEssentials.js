@@ -24,7 +24,7 @@ module.exports = class LockDownEssentials extends Order {
             case OrderState.WELCOMING:
                 this.stateCur = OrderState.PRODUCT;
                 aReturn.push("Welcome to Maha's Home Hardware Store.");
-                aReturn.push(`The list of Products offered are : 
+                aReturn.push(`The list of Products selling are : 
                 1. Anchors
                 2. Fasteners
                 3. Hammer
